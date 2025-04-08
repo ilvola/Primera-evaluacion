@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(231, 230, 230);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    margin: 5%;
+    line-height: 1.6;
+}
+
+main{
+    background: #4bbd51;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(28,123,54,0,1);
+    border-radius: 8px;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(48, 49, 54);
+    color: rgb(83, 134, 238);
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url(./img/background.jfif);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+header figure img{
+    border-radius: 50%;
+    border: 5px solid #2fccb7;
+    box-shadow: 0 0 10px rgba(100,216,219,0,5);
+}
+
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+
+header h2{
+    font-size: 2em;
+    opacity: 0.7;
+}
+
+
+.container{
+    background-color: #29c74c;
+    box-shadow: 0 0 10px rgba(rgba(15,52,27,0,5));
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor_foto_perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #1ed8a0;
+    margin: 5%;
+    box-shadow: 0 0 20px rgba(0,0,0,0,5);
+}
+
+.contenedor_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cabecera{
+    position: relative;
+}
+
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0 0 20px rgba(0,0,0,0,5);
+}
+
+
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: #2e66ce;
+}
+
+section hr{
+    border: 0px;
+    height: 2px;
+    background-color: #1ab7bd;
+    margin: 10px 0;
+}
+
+.cuadro{
+    background: white;
+    border-radius: 8px;
+
+}
+
+.section-cuadro{
+    margin-top: 5px;
+    background: #e0eaeb;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0,1);
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 5px;
+}
+
+article{
+    margin-bottom: 15px;
+}
+
+i{
+    color: #000;
+    margin-right: 8px;
+}
+
