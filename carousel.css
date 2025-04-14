@@ -9,8 +9,12 @@ body {
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+p{color: rgb(151, 236, 94);}
+
+h1{color: rgb(151, 236, 94);}
+
+h2{ color: rgb(40, 224, 224);}
+
 
 /* Carousel base class */
 .carousel {
